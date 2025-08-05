@@ -1,0 +1,143 @@
+
+{
+  "en": {
+    "blood_pressure": {
+      "title": "Blood Pressure",
+      "questions": [
+        {
+          "question": "What is blood pressure?",
+          "answer": "Blood pressure is the force of blood pushing against the walls of your arteries as your heart pumps blood. It's a vital sign that healthcare professionals use to evaluate a patient's health. Your blood pressure doesn't stay the same all the time; it changes based on your activities. For instance, it goes up when you're exercising or excited and lowers when you're resting."
+        },
+        {
+          "question": "What do the blood pressure numbers mean?",
+          "answer": "A blood pressure reading has two numbers: Systolic pressure (the top number): This measures the pressure in your arteries when your heart beats. Diastolic pressure (the bottom number): This measures the pressure in your arteries when your heart rests between beats. For example, if your reading is 120/80 mmHg, your systolic pressure is 120 and your diastolic pressure is 80. Both numbers are important, but for people over 50, the systolic pressure is a better indicator of risk for heart disease."
+        },
+        {
+          "question": "What is a normal blood pressure?",
+          "answer": "A normal blood pressure reading for most adults is below 120/80 mmHg. However, what's considered normal can vary from person to person. Here's a general guide to blood pressure readings for adults: Normal: Less than 120/80 mmHg, Elevated: 120-129 systolic and less than 80 diastolic, Stage 1 High Blood Pressure (Hypertension): 130-139 systolic or 80-89 diastolic, Stage 2 High Blood Pressure (Hypertension): 140/90 mmHg or higher, Hypertensive Crisis (seek emergency care): Higher than 180/120 mmHg."
+        }
+      ]
+    },
+    "heart_rate": {
+      "title": "Heart Rate",
+      "questions": [
+        {
+          "question": "What is a heart rate?",
+          "answer": "Your heart rate, or pulse, is the number of times your heart beats in one minute. Your body adjusts your heart rate depending on your activity level. For example, it's lower when you're resting and higher when you're exercising or feeling strong emotions."
+        },
+        {
+          "question": "What is a normal resting heart rate?",
+          "answer": "For most adults, a normal resting heart rate is between 60 and 100 beats per minute (bpm). However, this can vary based on age and overall health. For example, athletes often have a lower resting heart rate, sometimes as low as 40 bpm, because their hearts are in better condition and don't have to work as hard."
+        },
+        {
+          "question": "What factors can affect my heart rate?",
+          "answer": "Several factors can influence your heart rate, including: Age: Heart rate generally decreases with age. Fitness level: A lower resting heart rate is often a sign of good cardiovascular fitness. Emotions: Stress, anxiety, and happiness can increase your pulse. Body size: People with obesity may have a higher resting heart rate. Temperature: High temperatures can cause your heart rate to increase. Medications: Some drugs, like beta-blockers, can slow your heart rate. Body position: Your heart rate may briefly increase when you stand up."
+        }
+      ]
+    },
+    "blood_sugar": {
+      "title": "Blood Sugar",
+      "questions": [
+        {
+          "question": "What is blood sugar?",
+          "answer": "Blood sugar, or blood glucose, is the main sugar found in your blood and is the body's primary source of energy. It comes from the food you eat. When your blood glucose level rises, your pancreas releases insulin, a hormone that helps glucose enter your cells to be used for energy."
+        },
+        {
+          "question": "What are normal blood sugar levels?",
+          "answer": "For most healthy individuals, normal blood sugar levels are between 4.0 to 5.4 mmol/L (72 to 99 mg/dL) when fasting, and up to 7.8 mmol/L (140 mg/dL) two hours after eating. For people with diabetes, the target ranges are typically: Before a meal: 80 to 130 mg/dL. Two hours after the start of a meal: Less than 180 mg/dL."
+        },
+        {
+          "question": "What are the symptoms of high blood sugar (hyperglycemia)?",
+          "answer": "High blood sugar often comes on gradually and may not cause symptoms until levels are very high. Common symptoms include: Increased thirst and/or hunger. Frequent urination. Fatigue. Blurred vision. Unexplained weight loss. Slow-healing sores."
+        }
+      ]
+    },
+    "primary_treatment": {
+      "title": "Primary Treatment",
+      "questions": [
+        {
+          "question": "What is primary treatment?",
+          "answer": "Primary treatment serves as the crucial first stage in the wastewater treatment process, physically removing a significant portion of pollutants before water moves to subsequent treatment phases. This initial step is fundamental to the overall effectiveness and efficiency of wastewater purification."
+        },
+        {
+          "question": "What is the main goal of primary treatment?",
+          "answer": "The primary objective of this stage is to remove settleable solids and floating materials such as scum, oil, and grease. By doing so, it reduces the amount of suspended solids and the biochemical oxygen demand (BOD), which is the amount of oxygen required by microorganisms to break down organic matter in the water. A typical primary clarifier can remove 60% of suspended solids and 30-40% of the BOD."
+        },
+        {
+          "question": "What are the key processes in primary treatment?",
+          "answer": "Primary treatment involves two main physical processes: Screening: This is the very first step where wastewater passes through screens to remove large floating objects like rags, sticks, and plastic that could clog pipes or damage equipment. Sedimentation: After screening, the wastewater flows into large tanks called primary clarifiers or sedimentation tanks. In these tanks, the flow of water is slowed down, allowing heavier solids to settle to the bottom by gravity, forming primary sludge. Lighter materials, like grease and oil, float to the surface and are skimmed off."
+        }
+      ]
+    }
+  },
+  "bn": {
+    "blood_pressure": {
+      "title": "রক্তচাপ",
+      "questions": [
+        {
+          "question": "উচ্চ রক্তচাপ বা হাইপারটেনশন কী?",
+          "answer": "উচ্চ রক্তচাপ বা হাইপারটেনশন এমন একটি অবস্থা যেখানে ধমনীর দেয়ালের বিপরীতে রক্তের চাপ স্বাভাবিকের চেয়ে বেশি থাকে। যদি একজন ব্যক্তির রক্তচাপ সব সময়ই স্বাভাবিকের চেয়ে উঁচুতে থাকে, তবে তাকে উচ্চ রক্তচাপে আক্রান্ত বলা হয়। সাধারণভাবে, যদি সিস্টোলিক চাপ (উপরের সংখ্যা) ১৪০ মি.মি পারদ বা তার বেশি এবং ডায়াস্টোলিক চাপ (নিচের সংখ্যা) ৯০ মি.মি পারদ বা তার বেশি হয়, তবে তাকে উচ্চ রক্তচাপ হিসেবে ধরা হয়।"
+        },
+        {
+          "question": "উচ্চ রক্তচাপের কারণ কী?",
+          "answer": "৯০-৯৫% ক্ষেত্রে উচ্চ রক্তচাপের কোনো নির্দিষ্ট কারণ খুঁজে পাওয়া যায় না, একে প্রাইমারি বা এসেনসিয়াল হাইপারটেনশন বলা হয়। তবে কিছু বিষয় উচ্চ রক্তচাপের ঝুঁকি বাড়িয়ে দেয়, যেমন: স্থূলতা বা অতিরিক্ত ওজন, অস্বাস্থ্যকর খাদ্যাভ্যাস, শারীরিক পরিশ্রমের অভাব, ধূমপান ও মদ্যপান, অতিরিক্ত মানসিক চাপ, বংশগত কারণ, অন্যান্য রোগ।"
+        },
+        {
+          "question": "উচ্চ রক্তচাপের লক্ষণগুলো কী কী?",
+          "answer": "উচ্চ রক্তচাপকে প্রায়শই 'নীরব ঘাতক' বলা হয় কারণ এর তেমন কোনো প্রাথমিক লক্ষণ থাকে না। তবে, রক্তচাপ খুব বেড়ে গেলে কিছু লক্ষণ দেখা দিতে পারে, যেমন: شدید মাথাব্যথা, মাথা ঘোরা, ঘাড় ব্যথা, বমি বমি ভাব বা বমি হওয়া, শ্বাসকষ্ট, চোখে ঝাপসা দেখা, নাক দিয়ে রক্ত পড়া।"
+        }
+      ]
+    },
+    "heart_rate": {
+      "title": "হার্ট রেট",
+      "questions": [
+        {
+          "question": "স্বাভাবিক হার্ট রেট বা হৃদস্পন্দন কত?",
+          "answer": "বিশ্রামের সময় একজন প্রাপ্তবয়স্ক সুস্থ মানুষের স্বাভাবিক হার্ট রেট প্রতি মিনিটে ৬০ থেকে ১০০ বিটের মধ্যে থাকে। তবে, এটি বয়স, শারীরিক কার্যকলাপের স্তর, মানসিক চাপ এবং ওষুধের মতো বিভিন্ন কারণের দ্বারা প্রভাবিত হতে পারে।"
+        },
+        {
+          "question": "বয়স অনুযায়ী স্বাভাবিক হার্ট রেট কেমন হওয়া উচিত?",
+          "answer": "বয়সের সাথে সাথে স্বাভাবিক হার্ট রেটের পরিবর্তন হয়। শিশুদের হৃদস্পন্দন প্রাপ্তবয়স্কদের তুলনায় দ্রুত হয়। বিভিন্ন বয়স অনুযায়ী স্বাভাবিক হার্ট রেটের একটি সাধারণ তালিকা নিচে দেওয়া হলো: নবজাতক (০-১ মাস): প্রতি মিনিটে ৭০ থেকে ১৯০ বিট, শিশু (১-১১ মাস): প্রতি মিনিটে ৮০ থেকে ১৬০ বিট, শিশু (১-২ বছর): প্রতি মিনিটে ৭০ থেকে ১৫০ বিট, প্রি-স্কুলার (৩-৫ বছর): প্রতি মিনিটে ৭০ থেকে ১৩০ বিট, শিশু (৬-১২ বছর): প্রতি মিনিটে ৬৫ থেকে ১১০ বিট, কিশোর (১৩-১৯ বছর): প্রতি মিনিটে ৬০ থেকে ১০০ বিট, প্রাপ্তবয়স্ক (২০ বছর বা তার বেশি): প্রতি মিনিটে ৬০ থেকে ১০০ বিট।"
+        },
+        {
+          "question": "হার্ট রেট কখন বিপজ্জনক বলে মনে করা হয়?",
+          "answer": "সাধারণত, বিশ্রামের সময় প্রাপ্তবয়স্কদের হার্ট রেট প্রতি মিনিটে ১০০-এর বেশি হলে তাকে ট্যাকিকার্ডিয়া (Tachycardia) এবং ৬০-এর কম হলে তাকে ব্রাডিকার্ডিয়া (Bradycardia) বলা হয়। যদি অস্বাভাবিক হার্ট রেটের সাথে বুকে ব্যথা, শ্বাসকষ্ট, মাথা ঘোরা বা অজ্ঞান হয়ে যাওয়ার মতো লক্ষণ থাকে, তবে দ্রুত ডাক্তারের সাথে যোগাযোগ করা উচিত।"
+        }
+      ]
+    },
+    "blood_sugar": {
+      "title": "ব্লাড সুগার",
+      "questions": [
+        {
+          "question": "ব্লাড সুগার কী?",
+          "answer": "ব্লাড সুগার বা রক্তে শর্করার পরীক্ষা হলো এমন একটি পদ্ধতি যা রক্তে চিনির পরিমাণ নির্ধারণ করে, যা গ্লুকোজ নামে পরিচিত। ডায়াবেটিস নির্ণয় এবং নিয়ন্ত্রণে এই পরীক্ষাটি অত্যন্ত গুরুত্বপূর্ণ।"
+        },
+        {
+          "question": "ব্লাড সুগারের নরমাল রেঞ্জ কত?",
+          "answer": "রক্তে শর্করার স্বাভাবিক মাত্রা বিভিন্ন সময়ে বিভিন্ন রকম হতে পারে। নিচে একটি সাধারণ নির্দেশিকা দেওয়া হলো: খালি পেটে (Fasting): স্বাস্থ্যকর ব্যক্তির ক্ষেত্রে রক্তে শর্করার মাত্রা সাধারণত ৫.৫ মিলি মোল/লিটার এর আশেপাশে থাকা ভালো। যদি এই মাত্রা ৫.৫ থেকে ৬.৯ মিলি মোল/লিটারের মধ্যে থাকে, তবে তাকে প্রি-ডায়াবেটিস বলা হয়। ৭ মিলি মোল/লিটার বা তার বেশি হলে ডায়াবেটিস হিসেবে গণ্য করা হয়। খাওয়ার ২ ঘণ্টা পর (Postprandial): খাওয়ার দুই ঘণ্টা পর রক্তে শর্করার মাত্রা ৮ মিলি মোল/লিটারের কম থাকা উচিত। যদি এই মাত্রা ১১.১ মিলি মোল/লিটারের বেশি হয়, তবে তাকে ডায়াবেটিস হিসেবে ধরা হয়। যেকোনো সময় (Random): দিনের যেকোনো সময়ে রক্তে শর্করার মাত্রা ১১.১ মিলি মোল/লিটারের বেশি হলে এবং এর সাথে ডায়াবেটিসের অন্যান্য উপসর্গ থাকলে, তাকে ডায়াবেটিস হিসেবে বিবেচনা করা হয়।"
+        },
+        {
+          "question": "উচ্চ এবং নিম্ন রক্তে শর্করার লক্ষণ কী?",
+          "answer": "উচ্চ রক্তে শর্করার (হাইপারগ্লাইসেমিয়া) সাধারণ লক্ষণগুলো হলো: ঘন ঘন প্রস্রাব হওয়া, অতিরিক্ত তৃষ্ণা পাওয়া এবং মুখ শুকিয়ে যাওয়া, অস্বাভাবিক ক্লান্তি বা দুর্বলতা অনুভব করা, ওজন কমে যাওয়া, দৃষ্টি ঝাপসা হয়ে যাওয়া, ক্ষত শুকাতে দেরি হওয়া। নিম্ন রক্তে শর্করার (হাইপোগ্লাইসেমিয়া) লক্ষণগুলো হলো: মাথা ঘোরা, অতিরিক্ত ঘাম হওয়া, বুক ধড়ফড় করা বা হৃদস্পন্দন বেড়ে যাওয়া, শরীরে কাঁপুনি হওয়া, মনোযোগ দিতে অসুবিধা হওয়া এবং বিভ্রান্তি।"
+        }
+      ]
+    },
+    "primary_treatment": {
+      "title": "প্রাথমিক চিকিৎসা",
+      "questions": [
+        {
+          "question": "প্রাথমিক চিকিৎসা কী?",
+          "answer": "কোনো ব্যক্তি হঠাৎ অসুস্থ হলে বা দুর্ঘটনার শিকার হলে, ডাক্তার আসার আগে বা হাসপাতালে পৌঁছানোর পূর্বে তার জীবন রক্ষা এবং অবস্থা আরও খারাপ হওয়া থেকে বাঁচাতে যে তাৎক্ষণিক সেবা দেওয়া হয়, তাকেই প্রাথমিক চিকিৎসা বলে। এর মূল উদ্দেশ্য হলো জীবন বাঁচানো, আঘাতের তীব্রতা কমানো এবং আরোগ্য লাভে সহায়তা করা।"
+        },
+        {
+          "question": "ফার্স্ট এইড বক্সে কী কী থাকা উচিত?",
+          "answer": "একটি সাধারণ ফার্স্ট এইড বক্সে নিম্নলিখিত জিনিসগুলো থাকা জরুরি: জীবাণুমুক্ত গজ, তুলা ও ব্যান্ডেজ, ক্ষত পরিষ্কার করার জন্য অ্যান্টিসেপটিক লোশন বা ক্রিম (যেমন স্যাভলন, ডেটল), ব্যান্ডেজ ও গজ আটকানোর জন্য মেডিকেল টেপ বা লিকোপ্লাস্ট, ছোট কাঁচি ও চিমটা, ব্যথানাশক ওষুধ (যেমন প্যারাসিটামল), পোড়া ক্ষতের জন্য বার্ন ক্রিম, ক্রেপ ব্যান্ডেজ, যা মচকে গেলে বা হাড়ে চিড় ধরলে ব্যথা কমাতে সাহায্য করে, অ্যান্টিহিস্টামিন ট্যাবলেট (হাঁচি, চুলকানি বা পোকামাকড়ের কামড়ের জন্য), খাবার স্যালাইন, থার্মোমিটার ও সেফটিপিন।"
+        },
+        {
+          "question": "পুড়ে গেলে প্রাথমিক চিকিৎসা কী?",
+          "answer": "ঠান্ডা পানি ঢালুন: পুড়ে যাওয়া স্থানে কমপক্ষে ২০ মিনিট ধরে সাধারণ তাপমাত্রার বা সামান্য ঠান্ডা পানি ঢালতে হবে। বরফ বা বরফ-ঠান্ডা পানি ব্যবহার করা উচিত নয়, কারণ এটি ক্ষত আরও গভীর করতে পারে। কাপড় ও গয়না খুলুন: পুড়ে যাওয়া স্থানের কাপড় ও গয়না খুলে ফেলুন। চামড়ার সাথে কিছু আটকে গেলে তা টানাটানি করে খোলার চেষ্টা করবেন না। ক্ষতস্থান ঢাকুন: পরিষ্কার ও জীবাণুমুক্ত গজ বা কাপড় দিয়ে ক্ষতস্থানটি ঢেকে দিন। ক্ষতস্থানে টুথপেস্ট, তেল বা হলুদ লাগাবেন না। হাসপাতালে যান: পোড়ার মাত্রা বেশি হলে দ্রুত হাসপাতালে নিতে হবে।"
+        }
+      ]
+    }
+  }
+}
