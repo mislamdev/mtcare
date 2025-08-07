@@ -39,6 +39,7 @@ dependencies:
   shared_preferences: ^2.2.2
   connectivity_plus: ^5.0.2
   dio: ^5.4.0
+  firebase_core: ^3.15.2
   fluttertoast: ^8.2.12
   sizer: ^2.0.15
   fl_chart: ^0.65.0
@@ -50,7 +51,6 @@ dependencies:
   timezone: ^0.9.0
   web: any
   file_picker: ^10.2.1
-  firebase_core: ^3.1.1
   cloud_firestore: ^5.0.2
 
 dev_dependencies:

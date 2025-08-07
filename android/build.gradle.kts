@@ -1,3 +1,19 @@
+plugins {
+    id("com.google.gms.google-services") version "4.4.3" apply false
+}
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.google.firebase:firebase-appdistribution-gradle:5.1.1")
+        classpath("com.google.firebase:firebase-crashlytics-gradle:3.0.5")
+        classpath("com.google.firebase:perf-plugin:2.0.0")
+    }
+}
+
 allprojects {
     repositories {
         google()

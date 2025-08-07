@@ -1,5 +1,6 @@
+import 'dart:io';
+
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -17,17 +18,30 @@ final notificationService = NotificationService();
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
+    debugPrint(
+      'Main: Existing Firebase apps: ${Firebase.apps.map((a) => a.name).join(', ')}',
     );
-    debugPrint('Main: Firebase initialized successfully.');
+    // Defensive: try/catch around Firebase.apps to avoid race conditions
+    bool alreadyInitialized = false;
+    try {
+      alreadyInitialized = Firebase.apps.any((a) => a.name == '[DEFAULT]');
+    } catch (_) {}
+    if (!alreadyInitialized) {
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
+      debugPrint('Main: Firebase initialized successfully.');
+    } else {
+      debugPrint('Main: Firebase already initialized.');
+    }
   } catch (e) {
     debugPrint('Main: Error initializing Firebase: $e');
-    // Optionally, show an error message to the user or log to a crash reporting service
     runApp(
-      const MaterialApp(
+      MaterialApp(
         home: Scaffold(
-          body: Center(child: Text('Error initializing Firebase')),
+          body: Center(
+            child: Text('Error initializing Firebase:\n\n$e'),
+          ),
         ),
       ),
     );
@@ -38,13 +52,57 @@ void main() async {
   await dotenv.load();
 
   debugPrint('Main: Initializing notification service...');
-  await notificationService.init();
+  if (Platform.isAndroid || Platform.isIOS) {
+    try {
+      await notificationService.init();
+    } catch (e) {
+      debugPrint('Notification service initialization failed: $e');
+    }
+  } else if (Platform.isLinux) {
+    try {
+      await notificationService.init();
+    } catch (e) {
+      debugPrint('Notification service initialization failed: $e');
+    }
+    debugPrint(
+      'Notification service: Linux platform detected. Use a Linux-specific notification package here.',
+    );
+    // TODO: Initialize Linux-specific notifications if needed
+  } else if (Platform.isWindows) {
+    debugPrint(
+      'Notification service: Windows platform detected. Use a Windows-specific notification package here.',
+    );
+    // TODO: Initialize Windows-specific notifications if needed
+  } else if (Platform.isMacOS) {
+    debugPrint(
+      'Notification service: macOS platform detected. Use a macOS-specific notification package here.',
+    );
+    // TODO: Initialize macOS-specific notifications if needed
+  }
 
-  if (!kIsWeb) {
+  // Permissions
+  if (Platform.isAndroid || Platform.isIOS) {
     debugPrint('Main: Requesting permissions...');
     await Permission.storage.request();
     await Permission.scheduleExactAlarm.request();
     await Permission.notification.request();
+  } else if (Platform.isLinux) {
+    debugPrint(
+      'Permissions: Linux platform detected. Use a Linux-specific permissions package here if needed.',
+    );
+    // TODO: Request Linux-specific permissions if needed
+  } else if (Platform.isWindows) {
+    debugPrint(
+      'Permissions: Windows platform detected. Use a Windows-specific permissions package here if needed.',
+    );
+    // TODO: Request Windows-specific permissions if needed
+  } else if (Platform.isMacOS) {
+    debugPrint(
+      'Permissions: macOS platform detected. Use a macOS-specific permissions package here if needed.',
+    );
+    // TODO: Request macOS-specific permissions if needed
+  } else {
+    debugPrint('Permission requests skipped: not Android/iOS.');
   }
 
   ErrorWidget.builder = (FlutterErrorDetails details) {
@@ -72,7 +130,7 @@ class MyApp extends StatelessWidget {
     return Sizer(
       builder: (context, orientation, screenType) {
         return MaterialApp(
-          title: 'mtt_care_giver_assistant',
+          title: 'MT Care',
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,
           themeMode: ThemeMode.light,
